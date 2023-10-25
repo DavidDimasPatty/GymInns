@@ -1,0 +1,32 @@
+﻿@model List<GymInns.Models.Domain.User>
+@{
+}
+
+
+<h1>Users</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Plan</th>
+            <th>Date Join</th>
+            <th>Date Expired</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Id</td>
+                <td>@user.Name</td>
+                <td>@user.Email</td>
+                <td>@user.Plan</td>
+                <td>@user.DateJoin.ToString("dd-MM-yyyy")</td>
+                <td>@user.DateExpired.ToString("dd-MM-yyyy")</td>
+            </tr>
+        }
+    </tbody>
+</table>
