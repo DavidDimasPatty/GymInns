@@ -14,6 +14,7 @@
             <th>Plan</th>
             <th>Date Join</th>
             <th>Date Expired</th>
+            <th>Action</th>
         </tr>
     </thead>
     <tbody>
@@ -26,6 +27,8 @@
                 <td>@user.Plan</td>
                 <td>@user.DateJoin.ToString("dd-MM-yyyy")</td>
                 <td>@user.DateExpired.ToString("dd-MM-yyyy")</td>
+                <td><a href="Users/Edit/@user.Id">Edit</a></td>
+                <td><a href="Users/Delete/@user.Id">Delete</a></td>
             </tr>
         }
     </tbody>
