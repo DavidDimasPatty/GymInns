@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Br9lj7wNFsrDsCLYMqHyZ7agvRoecjc0K91IINIZ+JA=",
+  "Hash": "RKkDDtqVPHveIETBVoEoywP2G8fSIGTBK1aL5bMpaig=",
   "Source": "GymInns",
   "BasePath": "_content/GymInns",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "C:\\Users\\Intel\\Documents\\NGODING\\ASP.NET\\GymInns\\GymInns\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\GymInns.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\Intel\\Documents\\NGODING\\ASP.NET\\GymInns\\GymInns\\wwwroot\\css\\home.css",
+      "SourceId": "GymInns",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Intel\\Documents\\NGODING\\ASP.NET\\GymInns\\GymInns\\wwwroot\\",
+      "BasePath": "_content/GymInns",
+      "RelativePath": "css/home.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\home.css"
+    },
+    {
       "Identity": "C:\\Users\\Intel\\Documents\\NGODING\\ASP.NET\\GymInns\\GymInns\\wwwroot\\css\\site.css",
       "SourceId": "GymInns",
       "SourceType": "Discovered",
@@ -83,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Intel\\Documents\\NGODING\\ASP.NET\\GymInns\\GymInns\\wwwroot\\image\\shirt.png",
+      "SourceId": "GymInns",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Intel\\Documents\\NGODING\\ASP.NET\\GymInns\\GymInns\\wwwroot\\",
+      "BasePath": "_content/GymInns",
+      "RelativePath": "image/shirt.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\shirt.png"
     },
     {
       "Identity": "C:\\Users\\Intel\\Documents\\NGODING\\ASP.NET\\GymInns\\GymInns\\wwwroot\\js\\site.js",

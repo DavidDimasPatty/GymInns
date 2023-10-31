@@ -1,21 +1,24 @@
-﻿using GymInns.Models;
+﻿using GymInns.Data;
+using GymInns.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 
 namespace GymInns.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private readonly MVCDemoDbContext mvcdemoDbContext;
+        public HomeController(MVCDemoDbContext mvcdemoDbContext)
         {
-            _logger = logger;
+            this.mvcdemoDbContext = mvcdemoDbContext;
         }
 
-        public IActionResult Index()
+        [HttpGet]
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var product = await mvcdemoDbContext.Products.ToListAsync();
+            return View(product);
         }
 
         public IActionResult Privacy()

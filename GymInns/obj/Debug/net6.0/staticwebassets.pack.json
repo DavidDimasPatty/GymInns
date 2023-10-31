@@ -5,12 +5,20 @@
       "PackagePath": "staticwebassets\\GymInns.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Intel\\Documents\\NGODING\\ASP.NET\\GymInns\\GymInns\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
       "Id": "C:\\Users\\Intel\\Documents\\NGODING\\ASP.NET\\GymInns\\GymInns\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\Intel\\Documents\\NGODING\\ASP.NET\\GymInns\\GymInns\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Intel\\Documents\\NGODING\\ASP.NET\\GymInns\\GymInns\\wwwroot\\image\\shirt.png",
+      "PackagePath": "staticwebassets\\image\\shirt.png"
     },
     {
       "Id": "C:\\Users\\Intel\\Documents\\NGODING\\ASP.NET\\GymInns\\GymInns\\wwwroot\\js\\site.js",
