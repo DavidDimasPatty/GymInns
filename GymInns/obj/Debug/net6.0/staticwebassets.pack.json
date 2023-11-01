@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Intel\\Documents\\NGODING\\ASP.NET\\GymInns\\GymInns\\wwwroot\\image\\pants.png",
+      "PackagePath": "staticwebassets\\image\\pants.png"
+    },
+    {
       "Id": "C:\\Users\\Intel\\Documents\\NGODING\\ASP.NET\\GymInns\\GymInns\\wwwroot\\image\\shirt.png",
       "PackagePath": "staticwebassets\\image\\shirt.png"
     },
