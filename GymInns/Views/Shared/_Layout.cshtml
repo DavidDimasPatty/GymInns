@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/GymInns.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/lib/font-awesome/css/all.min.css" />
 </head>
 <body >
     <header>
@@ -17,13 +18,13 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
+                <div class="navbar-collapse collapse  justify-content-end">
+                    <ul class="navbar-nav">   
                         <li class="nav-item">
-                            <a class="nav-link active" asp-area="" asp-controller="Users" asp-action="Index"> Table User</a>
+                            <a class="nav-link" asp-area="" asp-controller="Users" asp-action="Add">Login</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Users" asp-action="Add"> Add User</a>
+                        <li class="nav-item me-4">
+                            <a class="nav-link" asp-area="" asp-controller="Users" asp-action="Add"> <i class="fa-solid fa-cart-shopping"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -38,7 +39,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2023 - GymInns - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2023 - GymInns
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

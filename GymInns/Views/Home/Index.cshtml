@@ -46,34 +46,38 @@
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+
+            <button class="carousel-control-prev btn-sm" style='background-color:black; width:30px;' type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
+
+            <button class="carousel-control-next btn-sm" style='background-color:black; width:30px;' type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true" style="color:black;"></span>   
             </button>
         </div>
       
     </div>
 
-    <div class="row mt-5">
-        @foreach (var product in Model){
-        <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <center>
-                        <img class="card-img-top" src="@product.image" style="width:150px;height:200px">
-                    </center>
-                    <div class="card-body">
-                        <h3 class="card-title">@product.name</h3>
-                        <p class="card-text">@product.description</p>
-                        <h5 class="card-title">Rp. @product.price</h5>
-                        <a href="/Product/Detail/@product.ID" class="btn btn-dark">Buy Now!</a>
-                    </div>
+    <center>
+        <div class="row mt-5">
+            @foreach (var product in Model){
+
+                <div class="col">
+                        <div class="card mt-3" style="width: 18rem;">
+                            <center>
+                                <img class="card-img-top" src="@product.image" style="width:150px;height:200px">
+                            </center>
+                            <div class="card-body">
+                                <h3 class="card-title">@product.name</h3>
+                                <p class="card-text">@product.description</p>
+                                <h5 class="card-title">Rp. @product.price</h5>
+                                <a href="/Product/Detail/@product.ID" class="btn btn-dark">Buy Now!</a>
+                            </div>
+                        </div>
                 </div>
+
+            }
         </div>
-        }
-    </div>
+    </center>
 
 </div>
